@@ -1,7 +1,7 @@
 /*
 Autor: jorgeaah
 Compilador: gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0 Copyright (C) 2019 Free Software Foundation, Inc. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-Compilado: gcc NewtonRaphson.c
+Compilado: gcc NewtonRaphson.c -lm
 Fecha: lun 03 may 2021 10:31:55 CST
 Librerias: stdio, stdlib,  math
 Resumen: Programa que utiliza el metodo de la biseccion para encontrar la raíz de una ecuación dado un rango determinado.
