@@ -1,0 +1,8 @@
+set terminal png
+set output "VelocidadAltura Chac.png"
+set title "Chac"
+set xlabel "Altura [m]"
+set xrange [0:400000]
+set ylabel "Velocidad [m/s]"
+set yrange [-3000:3000]
+plot "Chac" using 2:3 with lines title "Velocidad vrs altura"

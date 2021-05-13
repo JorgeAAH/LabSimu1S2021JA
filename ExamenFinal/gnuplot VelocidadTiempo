@@ -1,0 +1,8 @@
+set terminal png
+set output "VelocidadTiempo Chac.png"
+set title "Chac"
+set xlabel "Tiempo [s]"
+set xrange [0:1800]
+set ylabel "Velocidad [m/s]"
+set yrange [-3000:3000]
+plot "Chac" using 1:3 with lines title "Velocidad vrs tiempo"

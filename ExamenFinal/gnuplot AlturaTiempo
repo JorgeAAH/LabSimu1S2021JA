@@ -1,0 +1,8 @@
+set terminal png
+set output "AlturaTiempo Chac.png"
+set title "Chac"
+set xlabel "Tiempo [s]"
+set xrange [0:1800]
+set ylabel "Altura [m]"
+set yrange [0:4.0e5]
+plot "Chac" using 1:2 with lines title "Altura vrs tiempo"
